@@ -67,7 +67,21 @@ The project includes the following files:
 3. Open the Jupyter notebook:
    ```bash
    jupyter notebook email_spam_detection_project.ipynb
+
    ```
+   
+## Model Evaluation
+Based on the evaluation of the models, the following insights were gained:
+
+1. **Which model performed better?**
+   - The Random Forest model outperformed the Logistic Regression model in terms of accuracy. This is due to the Random Forest's ability to handle complex patterns in the data by combining multiple decision trees.
+
+2. **How does this compare to the initial prediction?**
+   - The results matched the initial prediction, as Random Forest is generally expected to perform better in scenarios with complex datasets, owing to its ensemble nature and ability to reduce overfitting.
+
+3. **Additional Observations:**
+   - Logistic Regression showed reasonable performance but was less effective in capturing intricate patterns in the data.
+   - Feature scaling improved the performance of both models, highlighting the importance of preprocessing.
 
 ## Project Insights
 This project highlights:
